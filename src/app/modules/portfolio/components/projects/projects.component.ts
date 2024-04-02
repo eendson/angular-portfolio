@@ -22,11 +22,11 @@ export class ProjectsComponent {
   public arrayProjects = signal<IProjects[]>
   ([
       {
-        src:'assets/img/projects/lista-de-tarefas.png',
+        src:'assets/img/projects/toDo-list.png',
         alt:'Projeto ToDo-list',
         title: 'Projeto ToDo-list',
-        width: '100px',
-        height: '51px',
+        width: '170px',
+        height: '120px',
         description: '<p>Projeto de lista de tarefas desenvolvido em Angular</p>',
         links:[
           {
@@ -36,11 +36,11 @@ export class ProjectsComponent {
         ]
       },
       {
-        src:'assets/img/projects/dark_theme.png',
+        src:'assets/img/projects/dark_theme.svg',
         alt:'Projeto Dark Theme',
         title: 'Projeto Dark Theme',
-        width: '100px',
-        height: '51px',
+        width: '170px',
+        height: '120px',
         description: '<p>Projeto Dark Theme desenvolvido em Angular</p>',
         links:[
           {
@@ -52,11 +52,11 @@ export class ProjectsComponent {
 
 
       {
-        src:'assets/img/projects/pokemon.png',
+        src:'assets/img/projects/poke.svg',
         alt:'Projeto Pokedex',
         title: 'Projeto Pokedex',
-        width: '100px',
-        height: '51px',
+        width: '170px',
+        height: '120px',
         description: '<p>Projeto Pokedex desenvolvido em Angular</p>',
         links:[
           {
