@@ -44,7 +44,7 @@
       ul {
         li {
           a {
-            width: 250px;
+            width: 215px;
           }
         }
       }
@@ -83,6 +83,24 @@
         }
       }
     }
+  }
+
+  .a-img-download{
+    display: flex;
+    padding-bottom: 6px;
+    padding-right: 5px;
+  }
+
+  .a-img-linkedin{
+    display: flex;
+    padding-bottom: 2px;
+    padding-right: 5px;
+  }
+
+  .a-img-github{
+    display: flex;
+    padding-bottom: 6px;
+    padding-right: 7px;
   }
 
   @media (max-width: 750px) {

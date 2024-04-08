@@ -7,14 +7,15 @@
     cursor: pointer;
   
     &.btn-primary,
-    &.btn-secondary {
+    &.btn-secondary,
+    &.btn-git {
       padding: 10px;
       font-size: 16px;
       border-radius: 7px;
     }
   
     &.btn-primary {
-      color: var(--black-010);
+      color: var(--white);
       background: var(--primary);
   
       &:hover {
@@ -29,6 +30,15 @@
   
       &:hover {
         background: var(--secondary-010);
+      }
+    }
+
+    &.btn-git {
+      color: var(--white);
+      background: var(--black-010);
+  
+      &:hover {
+        background: var(--grey);
       }
     }
   }
